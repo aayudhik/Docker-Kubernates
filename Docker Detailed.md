@@ -155,9 +155,6 @@ This message shows that your installation appears to be working correctly.
 ...
 ...
 Great Job, Now start with the examples folder to write your first Dockerfile and move to the next examples. Happy Learning :)
-Clone this repository and move to example folder
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
-cd  examples
 Login to Docker [Create an account with https://hub.docker.com/]
 docker login
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
@@ -169,9 +166,9 @@ https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 Login Succeeded
 Build your first Docker Image
-You need to change the username accoringly in the below command
+You need to change the username accordingly in the below command
 
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t aayudhik/my-first-docker-image:latest .
 Output of the above command
 
     Sending build context to Docker daemon  992.8kB
@@ -208,12 +205,12 @@ abhishekf5/my-first-docker-image   latest    960d37536dcd   26 seconds ago   467
 ubuntu                             latest    58db3edaf2be   13 days ago      77.8MB
 hello-world                        latest    feb5d9fea6a5   16 months ago    13.3kB
 Run your First Docker Container
-docker run -it abhishekf5/my-first-docker-image
+docker run -it aayudhik/my-first-docker-image
 Output
 
 Hello World
 Push the Image to DockerHub and share it with the world
-docker push abhishekf5/my-first-docker-image
+docker push aayudhik/my-first-docker-image
 
 Output
 Using default tag: latest
